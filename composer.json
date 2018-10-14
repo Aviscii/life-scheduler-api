@@ -1,10 +1,15 @@
 {
     "type": "project",
     "license": "proprietary",
-    "require": {
+  "require": {
         "php": "^7.0.8",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/doctrine-bundle": "^1.9",
+        "doctrine/orm": "^2.5",
+        "friendsofsymfony/rest-bundle": "^2.4",
+        "jms/serializer-bundle": "^2.4",
+        "sensio/generator-bundle": "^3.1",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
