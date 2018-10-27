@@ -2,21 +2,26 @@
     "type": "project",
     "license": "proprietary",
   "require": {
-        "php": "^7.0.8",
+        "php": "^7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/doctrine-bundle": "^1.9",
         "doctrine/orm": "^2.5",
         "friendsofsymfony/rest-bundle": "^2.4",
         "jms/serializer-bundle": "^2.4",
-        "sensio/generator-bundle": "^3.1",
+        "sensio/framework-extra-bundle": "^5.2",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
+        "symfony/form": "*",
         "symfony/framework-bundle": "*",
+        "symfony/http-foundation": "*",
+        "symfony/twig-bundle": "*",
+        "symfony/validator": "*",
         "symfony/yaml": "*"
     },
     "require-dev": {
-        "symfony/dotenv": "*"
+        "symfony/dotenv": "*",
+        "symfony/maker-bundle": "^1.8"
     },
     "config": {
         "preferred-install": {
